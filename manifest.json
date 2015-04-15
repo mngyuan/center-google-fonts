@@ -3,6 +3,11 @@
 	"name": "Center Google Fonts",
 	"version": "0.1",
 	"description": "Centers the google font preview page.",
+	"icons": {
+		"48": "icon48.png",
+		"128": "icon128.png"
+	},
+
 	"content_scripts": [
 		{
 			"matches": ["*://www.google.com/fonts/specimen/*"],
