@@ -1,0 +1,13 @@
+{
+	"manifest_version": 2,
+	"name": "Center Google Fonts",
+	"version": "0.1",
+	"description": "Centers the google font preview page.",
+	"content_scripts": [
+		{
+			"matches": ["http://www.google.com/fonts/specimen/*"],
+			"css": ["centergooglefonts.css"]
+		}
+	],
+	"permissions": ["tabs", "http://www.google.com/fonts/specimen/*"]
+}
