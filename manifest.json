@@ -5,9 +5,9 @@
 	"description": "Centers the google font preview page.",
 	"content_scripts": [
 		{
-			"matches": ["http://www.google.com/fonts/specimen/*"],
+			"matches": ["*://www.google.com/fonts/specimen/*"],
 			"css": ["centergooglefonts.css"]
 		}
 	],
-	"permissions": ["tabs", "http://www.google.com/fonts/specimen/*"]
+	"permissions": ["tabs", "*://www.google.com/fonts/specimen/*"]
 }
